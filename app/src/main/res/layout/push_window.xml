@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/siren" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:text="창문에서 수상한 자가 보고 훔쳐 있습니다" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/buttonshape"
+            android:gravity="center"
+            android:onClick="onClick"
+
+
+            android:text="사진 확인"
+
+            android:id="@+id/btn_window_picture"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonshape"
+            android:gravity="center"
+            android:onClick="onClick"
+
+
+            android:text="경찰SMS"
+
+
+            android:id="@+id/btn_window_sms"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonshape"
+            android:gravity="center"
+            android:onClick="onClick"
+
+            android:text="무시"
+
+            android:id="@+id/btn_window_ignore"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
